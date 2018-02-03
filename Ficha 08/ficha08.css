@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+   }
+
+
+   #fundo {
+    background-image: url('http://www.intertech.ps/images1/home_sec.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   
+
+   #fundo .button {
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+   }
+   #fundo .button:hover {
+    background-color: white;
+    color: black;
+   }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+    li {
+    float: left;
+}
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    li a:hover {
+    background-color: #111;
+}
+
+
+
+   .painel {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    overflow: hidden;
+    color: gray;
+   }
+   .painel .painel_titulo {
+    color: steelblue;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+
+
+   ultimos.conteudos2{
+       background-color: rgb(168, 165, 165);
+       align-items: flex-end;
+       color: rgb(69, 52, 73);
+       margin-bottom: 20px;
+       text-align: center;
+   }
+
+   .ultimos-conteudos {
+    background-image: url('http://realcasinomurcia.com/wp-content/uploads/2016/12/apertura-dia-del-libro.jpg');
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    overflow: hidden;
+    color: rgb(231, 218, 218);
+   }
+
+   pagina2{
+    background-color: rgb(168, 165, 165);
+    align-items: flex-end;
+    color: rgb(69, 52, 73);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+   .Paginap {
+    background-image: url('https://imagens.publicocdn.com/imagens.aspx/373483?tp=UH&db=IMAGENS');
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    text-align: justify;
+   flex-direction: column;
+    color: rgb(237, 237, 245);
+   }
+   
+   .imgem {
+       /* width: 240px;
+       height: 90px; */
+       margin-left: -40px;
+   }
+   
+
+
+
+   .flexcontainer {
+    display: flex;
+    flex-direction: row;   
+   }
+   footer{
+       background-color: rgb(168, 165, 165);
+   }
+
